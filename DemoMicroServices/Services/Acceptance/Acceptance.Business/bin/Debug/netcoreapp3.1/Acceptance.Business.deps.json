@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Acceptance.Business/1.0.0": {
+        "dependencies": {
+          "Acceptance.Data.Entities": "1.0.0",
+          "Acceptance.DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "Acceptance.Business.dll": {}
+        }
+      },
+      "Acceptance.Data.Entities/1.0.0": {
+        "runtime": {
+          "Acceptance.Data.Entities.dll": {}
+        }
+      },
+      "Acceptance.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "Acceptance.Data.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Acceptance.DataAccessLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Acceptance.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acceptance.Data.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acceptance.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Formulary.Data.Entities\Formulary.Data.Entities.csproj" />
+    <ProjectReference Include="..\Formulary.DataAccesslayer\Formulary.DataAccesslayer.csproj" />
+	<ProjectReference Include="..\..\..\CommunicationComponents\BaseEventBus\BaseEventBus.csproj" />
+	<ProjectReference Include="..\..\..\CommunicationComponents\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
+  </ItemGroup>
+
+</Project>
+

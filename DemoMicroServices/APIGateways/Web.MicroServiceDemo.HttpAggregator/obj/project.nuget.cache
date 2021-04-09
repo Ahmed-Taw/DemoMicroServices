@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "QG6beCIe230FrZREYrzqx38hL2qIRHCMQTHyJD8FAlpyYUhdj5V8KpYQwmyU7rCBWZzYUwS1o5C9krp+LWTxOw==",
+  "success": true,
+  "projectFilePath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\APIGateways\\Web.MicroServiceDemo.HttpAggregator\\Web.MicroServiceDemo.HttpAggregator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ATawfik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.1\\swashbuckle.aspnetcore.6.1.1.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.1\\swashbuckle.aspnetcore.swagger.6.1.1.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.1\\swashbuckle.aspnetcore.swaggergen.6.1.1.nupkg.sha512",
+    "C:\\Users\\ATawfik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.1\\swashbuckle.aspnetcore.swaggerui.6.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

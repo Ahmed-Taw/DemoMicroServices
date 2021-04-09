@@ -1,0 +1,434 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance\\Acceptance.csproj": {}
+  },
+  "projects": {
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj",
+        "projectName": "BaseEventBus",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\Acceptance.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\Acceptance.Business.csproj",
+        "projectName": "Acceptance.Business",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\Acceptance.Business.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj"
+              },
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj",
+        "projectName": "Acceptance.Data.Entities",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj",
+        "projectName": "Acceptance.DataAccessLayer",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance\\Acceptance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance\\Acceptance.csproj",
+        "projectName": "Acceptance",
+        "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance\\Acceptance.csproj",
+        "packagesPath": "C:\\Users\\ATawfik\\.nuget\\packages\\",
+        "outputPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ATawfik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\BaseEventBus\\BaseEventBus.csproj"
+              },
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\CommunicationComponents\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              },
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\Acceptance.Business.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Business\\Acceptance.Business.csproj"
+              },
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.Data.Entities\\Acceptance.Data.Entities.csproj"
+              },
+              "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj": {
+                "projectPath": "D:\\Tawfik\\Training Projects\\DemoMicroServices\\DemoMicroServices\\Services\\Acceptance\\Acceptance.DataAccessLayer\\Acceptance.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

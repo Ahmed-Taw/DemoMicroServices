@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapping.Data.Entities\Mapping.Data.Entities.csproj" />
+    <ProjectReference Include="..\Mapping.DataAccessLayer\Mapping.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>

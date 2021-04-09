@@ -1,0 +1,17 @@
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.deps.json
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.dll
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.pdb
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.AssemblyInfoInputs.cache
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.AssemblyInfo.cs
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.csproj.CoreCompileInputs.cache
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.dll
+D:\Tawfik\Training Projects\MicroServicesDemo\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.pdb
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.deps.json
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.dll
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\bin\Debug\netcoreapp3.1\BaseEventBus.pdb
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.csprojAssemblyReference.cache
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.AssemblyInfoInputs.cache
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.AssemblyInfo.cs
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.csproj.CoreCompileInputs.cache
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.dll
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\CommunicationComponents\BaseEventBus\obj\Debug\netcoreapp3.1\BaseEventBus.pdb

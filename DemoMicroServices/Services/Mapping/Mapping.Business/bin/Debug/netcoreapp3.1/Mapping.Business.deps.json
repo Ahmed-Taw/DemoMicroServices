@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Mapping.Business/1.0.0": {
+        "dependencies": {
+          "Mapping.Data.Entities": "1.0.0",
+          "Mapping.DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "Mapping.Business.dll": {}
+        }
+      },
+      "Mapping.Data.Entities/1.0.0": {
+        "runtime": {
+          "Mapping.Data.Entities.dll": {}
+        }
+      },
+      "Mapping.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "Mapping.Data.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Mapping.DataAccessLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mapping.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mapping.Data.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mapping.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

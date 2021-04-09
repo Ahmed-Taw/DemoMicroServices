@@ -1,0 +1,51 @@
+version: '3.4'
+
+services:
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
+  messaging.api:
+    image: ${DOCKER_REGISTRY-}messagingapi
+    build:
+      context: .
+      dockerfile: DemoMicroServices/Services/Messaging/Messaging/Dockerfile
+
+  mapping.api:
+    image: ${DOCKER_REGISTRY-}mappingapi
+    build:
+      context: .
+      dockerfile: DemoMicroServices/Services/Mapping/Mapping/Dockerfile
+    depends_on:
+      - rabbitmq
+
+
+  formulary.api:
+    image: ${DOCKER_REGISTRY-}formularyapi
+    build:
+      context: .
+      dockerfile: DemoMicroServices/Services/Formulary/Formulary/Dockerfile
+    depends_on:
+      - rabbitmq
+
+
+  acceptance.api:
+    image: ${DOCKER_REGISTRY-}acceptanceapi
+    build:
+      context: .
+      dockerfile: DemoMicroServices/Services/Acceptance/Acceptance/Dockerfile
+
+
+  webstatus:
+    image: ${DOCKER_REGISTRY-}webstatus
+    build:
+      context: .
+      dockerfile: DemoMicroServices/WebStatus/Dockerfile
+
+
+  #messaging:
+  #  image: ${DOCKER_REGISTRY-}messaging
+  #  build:
+  #    context: .
+  #    dockerfile: DemoMicroServices/Services/Messaging/Messaging/Dockerfile
+

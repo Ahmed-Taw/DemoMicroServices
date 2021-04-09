@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Formulary.Data.Entities/1.0.0": {
+        "runtime": {
+          "Formulary.Data.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Formulary.Data.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

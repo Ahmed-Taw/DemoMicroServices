@@ -1,0 +1,141 @@
+version: '3.4'
+
+services:
+  acceptance.api:
+    image: acceptanceapi:dev
+    container_name: Acceptance
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Acceptance"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_acceptance.api$
+    volumes:
+      - D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Acceptance\Acceptance:/app
+      - D:\Tawfik\Training Projects\DemoMicroServices:/src
+      - C:\Users\ATawfik\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_acceptance.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_acceptance.api$ \"/app/bin/Debug/netcoreapp3.1/Acceptance.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  formulary.api:
+    image: formularyapi:dev
+    container_name: Formulary
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Formulary"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_formulary.api$
+    volumes:
+      - D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary:/app
+      - D:\Tawfik\Training Projects\DemoMicroServices:/src
+      - C:\Users\ATawfik\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_formulary.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_formulary.api$ \"/app/bin/Debug/netcoreapp3.1/Formulary.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  mapping.api:
+    image: mappingapi:dev
+    container_name: Mapping
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Mapping"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_mapping.api$
+    volumes:
+      - D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Mapping\Mapping:/app
+      - D:\Tawfik\Training Projects\DemoMicroServices:/src
+      - C:\Users\ATawfik\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_mapping.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_mapping.api$ \"/app/bin/Debug/netcoreapp3.1/Mapping.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  messaging.api:
+    image: messagingapi:dev
+    container_name: Messaging
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Messaging"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_messaging.api$
+    volumes:
+      - D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Messaging\Messaging:/app
+      - D:\Tawfik\Training Projects\DemoMicroServices:/src
+      - C:\Users\ATawfik\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_messaging.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_messaging.api$ \"/app/bin/Debug/netcoreapp3.1/Messaging.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  webstatus:
+    image: webstatus:dev
+    container_name: WebStatus
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "WebStatus"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_webstatus$
+    volumes:
+      - D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\WebStatus:/app
+      - D:\Tawfik\Training Projects\DemoMicroServices:/src
+      - C:\Users\ATawfik\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_webstatus$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_webstatus$ \"/app/bin/Debug/netcoreapp3.1/WebStatus.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

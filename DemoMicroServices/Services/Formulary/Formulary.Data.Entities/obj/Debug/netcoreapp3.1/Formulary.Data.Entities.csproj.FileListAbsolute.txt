@@ -1,0 +1,17 @@
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.deps.json
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.dll
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.pdb
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.AssemblyInfoInputs.cache
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.AssemblyInfo.cs
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.csproj.CoreCompileInputs.cache
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.dll
+D:\Tawfik\Training Projects\MicroServicesDemo\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.pdb
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.deps.json
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.dll
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\bin\Debug\netcoreapp3.1\Formulary.Data.Entities.pdb
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.AssemblyInfoInputs.cache
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.AssemblyInfo.cs
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.csproj.CoreCompileInputs.cache
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.dll
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.pdb
+D:\Tawfik\Training Projects\DemoMicroServices\DemoMicroServices\Services\Formulary\Formulary.Data.Entities\obj\Debug\netcoreapp3.1\Formulary.Data.Entities.csprojAssemblyReference.cache
